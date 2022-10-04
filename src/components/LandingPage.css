@@ -1,0 +1,96 @@
+#landing {
+    background: #DDDDDD;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 48px
+}
+
+.header_description {
+    width: 573.91px;
+    height: 192px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.color {
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.btn {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    position: absolute;
+    width: 181px;
+    height: 23px;
+    left: calc(50% - 320px/2 + 436px);
+    top: 622px;
+
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.header__img--wrapper {
+    width: 440px;
+    height: 775.69px;
+    left: calc(50% - 440px/2 - 366px);
+    top: 100px;
+}
+
+.header__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: right;
+
+
+}
+
+.header__para {
+    height: 56px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #4F4F4F;
+}
+/* FOR TABLETS */
+@media (max-width:768px){
+    #landing{
+    background: #DDDDDD;
+
+    }
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 573.91px;
+    }
+}
+/* FOR SMALL PHONES */
+@media (max-width:576px){
+    
+}
